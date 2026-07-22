@@ -1,0 +1,28 @@
+# MkDocs build output
+/site/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Tooling / caches
+.cache/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Node (getting-started examples, Promptfoo)
+node_modules/
+.promptfoo/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
